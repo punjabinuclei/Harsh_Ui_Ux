@@ -1,6 +1,9 @@
 import React from 'react'
 import Navbar from './Navbar/Navbar'
 import HeroSection from './HeroSection/HeroSection'
+import CollaborationPartners from './HeroSection/CollaborationPartners/CollaborationPartners'
+import CreativeUI from './CreativeUI/CreativeUi'
+
 
 
 const HomePage = () => {
@@ -10,6 +13,8 @@ const HomePage = () => {
                 <Navbar />
                 <HeroSection />
             </div>
+            <CollaborationPartners />
+            <CreativeUI />
         </>
     )
 }

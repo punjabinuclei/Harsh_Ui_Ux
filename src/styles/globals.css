@@ -9,6 +9,7 @@
 }
 body {
   background-color: #110929;
+  color: white;
 }
 
 .nav_hero_bg {
@@ -16,4 +17,9 @@ body {
   mask-repeat: no-repeat;
   background-position: left;
   background-size: cover;
+}
+
+.collaboration_bg {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(21.5px);
 }
