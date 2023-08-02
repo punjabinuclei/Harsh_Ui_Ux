@@ -24,14 +24,21 @@ body {
   backdrop-filter: blur(21.5px);
 }
 
-.service_container_bg{
-  background:url("../assets/service_container_bg.png");
+.service_container_bg {
+  background: url("../assets/service_container_bg.png");
   background-repeat: no-repeat;
   background: cover;
 }
 
-.find_me_bg{
+.find_me_bg {
   background: url("../assets/find_me_bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+}
+
+.work_gallery {
+  background: url("../assets/work_gallery_bg.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top;
