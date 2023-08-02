@@ -29,3 +29,10 @@ body {
   background-repeat: no-repeat;
   background: cover;
 }
+
+.find_me_bg{
+  background: url("../assets/find_me_bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+}

@@ -6,6 +6,7 @@ import CreativeUI from './CreativeUI/CreativeUi'
 import Projects from './Projects/Projects'
 import Services from './Services/Services'
 import Clients from './Clients/Clients'
+import FindMe from './FindMe/FindMe'
 
 
 
@@ -21,6 +22,7 @@ const HomePage = () => {
             {/* <Projects /> */}
             <Services />
             <Clients />
+            <FindMe />
         </>
     )
 }
