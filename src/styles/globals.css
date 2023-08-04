@@ -43,3 +43,14 @@ body {
   background-size: cover;
   background-position: top;
 }
+
+.contact_form_bg {
+  background: url("../assets/contact_form_bgT.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border:1px solid #8D1CFE87;
+}
+.button_style_form {
+  background: linear-gradient(129deg, #6a8eed 0%, #3733d1 100%);
+}

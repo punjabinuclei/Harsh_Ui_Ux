@@ -8,6 +8,7 @@ import Services from './Services/Services'
 import Clients from './Clients/Clients'
 import FindMe from './FindMe/FindMe'
 import WorkGallery from './WorkGallery/WorkGallery'
+import ContactForm from './ContactForm/ContactForm'
 
 
 
@@ -25,6 +26,7 @@ const HomePage = () => {
             <Clients />
             <FindMe />
             <WorkGallery />
+            <ContactForm />
         </>
     )
 }
