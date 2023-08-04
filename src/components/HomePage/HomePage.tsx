@@ -10,6 +10,7 @@ import FindMe from './FindMe/FindMe'
 import WorkGallery from './WorkGallery/WorkGallery'
 import ContactForm from './ContactForm/ContactForm'
 import DayChallenge from './30DayChallenge/DayChallenge'
+import Footer from './Footer/Footer'
 
 
 
@@ -31,6 +32,7 @@ const HomePage = () => {
                 <ContactForm />
                 <DayChallenge />
             </div>
+            <Footer />
         </>
     )
 }
