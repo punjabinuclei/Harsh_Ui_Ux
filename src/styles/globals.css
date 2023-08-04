@@ -49,8 +49,30 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  border:1px solid #8D1CFE87;
+  border: 1px solid #8d1cfe87;
 }
 .button_style_form {
   background: linear-gradient(129deg, #6a8eed 0%, #3733d1 100%);
+}
+
+.box_shadow_thirty {
+  box-shadow: 0px 4px 190px 0px rgba(153, 23, 255, 0.2);
+}
+
+.thirty_day_button {
+  border-radius: 1.57675rem;
+  background: radial-gradient(50% 50% at 50% 50%, #a47cf3 0%, #683fea 100%);
+  box-shadow: 0px 1.713004469871521px 0.8565022349357605px 0px
+      rgba(255, 255, 255, 0.25) inset,
+    0px -3.426008939743042px 1.713004469871521px 0px rgba(0, 0, 0, 0.25) inset,
+    0px 0px 0.8565022349357605px 3.426008939743042px rgba(255, 255, 255, 0.1),
+    0px 0px 154.17039489746094px 0px #9917ff;
+}
+
+
+.bg_form_thirty{
+  background: url("../assets/bg-form_thirty.svg");
+  background-position: top;
+  background-repeat: no-repeat;
+ 
 }

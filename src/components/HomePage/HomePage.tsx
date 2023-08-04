@@ -9,6 +9,7 @@ import Clients from './Clients/Clients'
 import FindMe from './FindMe/FindMe'
 import WorkGallery from './WorkGallery/WorkGallery'
 import ContactForm from './ContactForm/ContactForm'
+import DayChallenge from './30DayChallenge/DayChallenge'
 
 
 
@@ -25,8 +26,11 @@ const HomePage = () => {
             <Services />
             <Clients />
             <FindMe />
-            <WorkGallery />
-            <ContactForm />
+            <div className='bg_form_thirty'>
+                <WorkGallery />
+                <ContactForm />
+                <DayChallenge />
+            </div>
         </>
     )
 }
