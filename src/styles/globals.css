@@ -69,10 +69,12 @@ body {
     0px 0px 154.17039489746094px 0px #9917ff;
 }
 
-
-.bg_form_thirty{
+.bg_form_thirty {
   background: url("../assets/bg-form_thirty.svg");
   background-position: top;
   background-repeat: no-repeat;
- 
+}
+
+.tab_bg {
+  background: linear-gradient(162deg, #8d1cfe 0%, #0038ed 100%);
 }

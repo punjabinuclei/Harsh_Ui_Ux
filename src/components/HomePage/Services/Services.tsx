@@ -7,7 +7,7 @@ import service_card3 from "../../../assets/service_card3.svg"
 
 const Services = () => {
     return (
-        <div className='px-[7rem] my-[6rem]'>
+        <div className='px-[6rem] my-[6rem]'>
             <div>
                 <h1 className='text-[3rem] font-bold'>Services</h1>
             </div>

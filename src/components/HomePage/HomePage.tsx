@@ -23,7 +23,7 @@ const HomePage = () => {
             </div>
             <CollaborationPartners />
             <CreativeUI />
-            {/* <Projects /> */}
+            <Projects />
             <Services />
             <Clients />
             <FindMe />
