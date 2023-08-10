@@ -78,3 +78,17 @@ body {
 .tab_bg {
   background: linear-gradient(162deg, #8d1cfe 0%, #0038ed 100%);
 }
+
+/* Works Page---------------------------------------------- */
+.nav_bg {
+  background: url("../assets/Works/nav_bg.png");
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+.about_text_animation {
+  background: linear-gradient(174deg, #adf1e0 0%, #8075ff 28%, #ff7171 98%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

@@ -1,5 +1,5 @@
 import React from 'react'
-// import Gallery1 from "./components/Gallery1";
+import Gallery1 from "./components/Gallery1";
 
 const WorkGallery = () => {
     return (
