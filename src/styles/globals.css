@@ -87,8 +87,33 @@ body {
 }
 
 .about_text_animation {
-  background: linear-gradient(174deg, #adf1e0 0%, #8075ff 28%, #ff7171 98%);
+  background: linear-gradient(174deg, #adf1e0 10%, #8075ff 18%, #ff7171 98%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
+/* AboutPage */
+
+.about_bg2 {
+  background: url("../assets/About/bg_about_2.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.about_bg3{
+  background: url("../assets/About/bg_about_3.png");
+  background-repeat: no-repeat;
+  background-position: right;
+ }
+
+
+
+ .section_content_bg{
+  background: url("../assets/About/section_content_bg.svg");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: cover;
+
+ }
