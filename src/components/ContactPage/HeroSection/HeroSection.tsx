@@ -2,7 +2,7 @@ import React from 'react'
 
 const HeroSection = () => {
     return (
-        <div className='flex justify-between px-[7rem] py-[7rem]'>
+        <div className='flex justify-between px-[7rem] pt-[10rem] h-screen'>
             <div>
                 <p className='tracking-[0.11rem] leading-[1.625rem]'>Connect</p>
                 <h1 className='text-[5.875rem] leading-[5.6rem] tracking-[-0.125rem] font-[800]'>Lets chat</h1>

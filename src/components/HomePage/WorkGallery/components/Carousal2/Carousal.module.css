@@ -1,0 +1,43 @@
+/* components/Carousel.module.css */
+
+@keyframes scroll {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(calc(-19rem * 14));
+    }
+  }
+  
+  .slider {
+    height: 19rem;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+    /* width: 960px; */
+  }
+  
+  /* Add a class name to ::before and ::after pseudo-elements */
+  .slider::before,
+  .slider::after {
+    content: "";
+    height: 19rem;
+    position: absolute;
+    width: 19rem;
+    z-index: 2;
+  }
+  
+  /* Rest of the styles remain the same */
+  
+  .slideTrack {
+    animation: scroll 10s linear infinite;
+    display: flex;
+    width: calc(19rem * 28);
+  }
+  
+  .slide {
+    height: 19rem;
+    width: 19rem;
+    margin: 0rem 1rem;
+  }
+  

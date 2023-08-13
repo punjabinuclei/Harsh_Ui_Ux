@@ -6,7 +6,7 @@ import sendMessage from "../../../assets/sendMessage.svg"
 
 const ContactForm = () => {
     return (
-        <div className='px-[7.31rem] my-2'>
+        <div className='px-[7.31rem] my-[4rem]'>
             <div className='contact_form_bg rounded-[1.5rem] pt-[2.6rem] px-[2rem]'>
                 <div className=''>
                     <div className=''>

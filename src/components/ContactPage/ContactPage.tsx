@@ -11,7 +11,7 @@ const ContactPage = () => {
                 <Navbar />
                 <HeroSection />
             </div>
-            <div className='pb-[10rem]'>
+            <div className='relative bottom-[10rem]'>
                 <ContactForm />
             </div>
             <Footer />
