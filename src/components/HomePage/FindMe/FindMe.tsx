@@ -18,7 +18,7 @@ const FindMe = () => {
             <div>
                 <h1 className='text-[3rem] font-bold pb-[2rem]'>Find UX.Harsh everywhere</h1>
             </div>
-            <div className='flex justify-between'>
+            <div className='flex justify-center'>
                 <FindMeContainer bg={bg_find_me_1} icon={icon_find_me_1} username='Burnerbuzz' org='Instagram' />
                 <FindMeContainer bg={bg_find_me_2} icon={icon_find_me_2} username='UX.Harsh' org='Behance' />
                 <FindMeContainer bg={bg_find_me_3} icon={icon_find_me_3} username='Harsh Vesuwala' org='Fiverr' />

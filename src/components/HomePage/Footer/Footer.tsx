@@ -1,5 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
+import Link from 'next/link'
 import FooterLogo from "../../../assets/footer_logo.svg"
 import Twitter from "../../../assets/Twitter.svg"
 import Facebook from "../../../assets/Facebook.svg"
@@ -27,10 +28,10 @@ const Footer = () => {
                 <div>
                     <h1 className='text-[1rem] pb-4'>Quick links</h1>
                     <div className='text-[0.93rem] text-[#999]'>
-                        <p className='py-1'>Home</p>
-                        <p className='py-1'>About me</p>
-                        <p className='py-1'>Works</p>
-                        <p className='py-1'>Contact</p>
+                       <Link href="/"><p className='py-1'>Home</p></Link>
+                       <Link href="/About"><p className='py-1'>About me</p></Link>
+                       <Link href="/Works"><p className='py-1'>Works</p></Link>
+                       <Link href="/Contact"><p className='py-1'>Contact</p></Link>
                     </div>
                 </div>
                 <div>

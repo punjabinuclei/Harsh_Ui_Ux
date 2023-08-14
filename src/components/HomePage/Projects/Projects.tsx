@@ -46,7 +46,7 @@ function Projects() {
 
     return (
         <div className="flex justify-center">
-            <div className="px-[7rem] ">
+            <div className="px-[3rem] ">
                 <div className="flex space-x-4">
                     {tabs.map((tab) => (
                         <button

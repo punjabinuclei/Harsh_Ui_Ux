@@ -1,8 +1,10 @@
 import React from 'react'
 import Image from 'next/image'
 import HeroSectionStar from "../../../assets/herosection_star.svg"
-import hero_image from "../../../assets/hero_image.png"
-import hello from "../../../assets/hello_im_Harsh.png"
+import hero_image from "../../../assets/hero_img.png";
+import hello from "../../../assets/hello_im_Harsh.png";
+import hero_button from "../../../assets/hero_button.png";
+import Link from 'next/link';
 
 const HeroSection = () => {
     return (
@@ -25,10 +27,9 @@ const HeroSection = () => {
                         </div>
                     </div>
                     <div className='flex justify-between'>
-                        <div>
-                            <button className='rounded-full bg-gradient-to-r from-[#8D1CFE] to-[#0038ED] 
-                            px-[2rem] py-[1rem]'>Discover Me</button>
-                        </div>
+                            <Link href="/About">
+                                <Image className='relative bottom-10' src={hero_button} alt="hero_button" />
+                            </Link>
                         <div className='relative left-[16rem] bottom-[3rem]'>
                             <Image src={hello} alt="hello" />
                         </div>
@@ -38,7 +39,7 @@ const HeroSection = () => {
                     <Image src={hero_image} alt="hero_image" />
                 </div>
             </div>
-            <div className='mt-[1.5rem] flex '>
+            <div className=' flex '>
                 <div className='pr-[3.5rem]'>
                     <p>Doing this since</p>
                     <h1 className='text-[1.75rem] font-bold'>3+ years</h1>

@@ -4,8 +4,8 @@ import harsh_img from "../../../assets/harsh_img.png"
 
 const CreativeUi = () => {
     return (
-        <div className='mt-[4rem] px-[7rem]'>
-            <div className='flex '>
+        <div className='mt-[8rem] px-[7rem]'>
+            <div className='flex justify-between'>
                 <div>
                     <div>
                         <h1 className='text-1.125rem font-bold  text-transparent bg-clip-text bg-gradient-to-r from-[#8D1CFE] to-[#3B2CF4]'>Harsh Vesuwala</h1>
@@ -16,8 +16,10 @@ const CreativeUi = () => {
 
                     </div>
                 </div>
-                <div className='w-8/12'>
-                    {/* <p>Meet Harsh Vesuwala, the talented UX/UI designer and mechanical engineer from IITRAM, affectionately known as UX.Harsh! 🚀 Harsh's designs are a delightful fusion of cultural influences, adding a special touch that connects with users all over the globe. </p> */}
+                <div className='w-[41rem]'>
+                    <p className='text-[1.5rem]'>
+                        Welcome, make yourself at home. I am a multidisciplinary designer, designing and building beautiful digital products, brands, and ui/ux solutions from India.
+                    </p>
                 </div>
             </div>
 

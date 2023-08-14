@@ -13,16 +13,16 @@ import Tedx from "../../../../assets/project8.png"
 const Technology = () => {
   return (
     <div>
-      <div className='flex space-x-4 pt-[2rem]'>
+      <div className='flex justify-center space-x-4 pt-[2rem]'>
                 <Card image={Depodeposit} title='Depodeposit' title2='(study)' category='UX-UI- Statergy' project_link='' />
-                <Card image={Lohawalla} title='Lohawalla' title2='(study)' category='UX-UI- Statergy' project_link='' />
+                {/* <Card image={Lohawalla} title='Lohawalla' title2='(study)' category='UX-UI- Statergy' project_link='' /> */}
                 <Card image={Mulya} title='Mulya' title2='(study)' category='UX-UI- Statergy' project_link='' />
                 <Card image={Traed} title='Traed.Ai' title2='' category='UX-UI- Statergy' project_link='' />
             </div>
-            <div className='flex space-x-4 pt-[1rem]'>
+            <div className='flex justify-center space-x-4 pt-[1rem]'>
                 <Card image={Estella} title='Estella' title2='' category='UX-UI' project_link='' />
                 <Card image={UV_Connect} title='UV Connect' title2='(study)' category='UX-UI' project_link='' />
-                <Card image={Vrusco} title='Vrusco' title2='' category='UX-UI-Statergy' project_link='' />
+                {/* <Card image={Vrusco} title='Vrusco' title2='' category='UX-UI-Statergy' project_link='' /> */}
                 <Card image={Tedx} title='TEDxIITRAM' title2='' category='UX-UI-Statergy' project_link='' />
             </div>
     </div>

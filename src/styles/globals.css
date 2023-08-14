@@ -19,9 +19,16 @@ body {
   background-size: cover;
 }
 
+
+.nav_btn_bg{
+  background:linear-gradient(90deg, #8D1CFE 0%, #0038ED 100%);
+}
+
 .collaboration_bg {
-  background: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(21.5px);
+  background:url("../assets/collab_bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
 }
 
 .service_container_bg {
