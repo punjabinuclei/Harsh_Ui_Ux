@@ -11,7 +11,7 @@ import Github from "../../../assets/Github.svg";
 
 const Footer = () => {
     return (
-        <div className='mb-10 px-[4rem]'>
+        <div className='mb-10 mt-[16rem] px-[4rem]'>
             <div className='flex justify-between '>
                 <div>
                     <Image src={FooterLogo} alt="Footer Logo" />

@@ -19,13 +19,12 @@ body {
   background-size: cover;
 }
 
-
-.nav_btn_bg{
-  background:linear-gradient(90deg, #8D1CFE 0%, #0038ED 100%);
+.nav_btn_bg {
+  background: linear-gradient(90deg, #8d1cfe 0%, #0038ed 100%);
 }
 
 .collaboration_bg {
-  background:url("../assets/collab_bg.png");
+  background: url("../assets/collab_bg.png");
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
@@ -90,7 +89,6 @@ body {
 .nav_bg {
   background: url("../assets/Works/nav_bg.png");
   background-repeat: no-repeat;
-  
 }
 
 .about_text_animation {
@@ -109,18 +107,28 @@ body {
   background-size: cover;
 }
 
-.about_bg3{
+.about_bg3 {
   background: url("../assets/About/bg_about_3.png");
   background-repeat: no-repeat;
   background-position: right;
- }
+}
 
-
-
- .section_content_bg{
+.section_content_bg {
   background: url("../assets/About/section_content_bg.svg");
   background-repeat: no-repeat;
   background-position: bottom;
   background-size: cover;
+}
 
- }
+/* Case Study */
+
+.case_study_tag {
+  border-radius: 5.625rem;
+  background: rgba(155, 163, 163, 0.1);
+}
+
+.question_container_Bg {
+  border-radius: 0.3125rem;
+  background: rgba(141, 28, 254, 0.25);
+  box-shadow: -2px 10px 15px 0px rgba(0, 0, 0, 0.1);
+}
