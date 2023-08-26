@@ -21,6 +21,7 @@ const HomePage = () => {
                 <Navbar />
                 <HeroSection />
             </div>
+            <div className="hidden lg:block">
             <CollaborationPartners />
             <CreativeUI />
             <Projects />
@@ -33,6 +34,7 @@ const HomePage = () => {
                 <DayChallenge />
             </div>
             <Footer />
+            </div>
         </>
     )
 }
