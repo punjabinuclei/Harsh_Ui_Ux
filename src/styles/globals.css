@@ -27,6 +27,7 @@ body {
   background: url("../assets/collab_bg.png");
   background-repeat: no-repeat;
   background-size: cover;
+  border: 1px solid #8d1cfe87;
   width: 100%;
 }
 

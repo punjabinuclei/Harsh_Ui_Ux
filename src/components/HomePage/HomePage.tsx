@@ -1,7 +1,7 @@
 import React from 'react'
 import Navbar from './Navbar/Navbar'
 import HeroSection from './HeroSection/HeroSection'
-import CollaborationPartners from './HeroSection/CollaborationPartners/CollaborationPartners'
+import CollaborationPartners from './CollaborationPartners/CollaborationPartners'
 import CreativeUI from './CreativeUI/CreativeUi'
 import Projects from './Projects/Projects'
 import Services from './Services/Services'
@@ -21,19 +21,19 @@ const HomePage = () => {
                 <Navbar />
                 <HeroSection />
             </div>
-            <div className="hidden lg:block">
             <CollaborationPartners />
             <CreativeUI />
-            <Projects />
-            <Services />
-            <Clients />
-            <FindMe />
-            <div className='bg_form_thirty'>
-                <WorkGallery />
-                <ContactForm />
-                <DayChallenge />
-            </div>
-            <Footer />
+            <div className="hidden lg:block">
+                <Projects />
+                <Services />
+                <Clients />
+                <FindMe />
+                <div className='bg_form_thirty'>
+                    <WorkGallery />
+                    <ContactForm />
+                    <DayChallenge />
+                </div>
+                <Footer />
             </div>
         </>
     )
