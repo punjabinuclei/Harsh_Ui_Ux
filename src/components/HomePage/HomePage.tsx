@@ -24,7 +24,7 @@ const HomePage = () => {
             <CollaborationPartners />
             <CreativeUI />
             <div className="hidden lg:block">
-                <Projects />
+            <Projects />
                 <Services />
                 <Clients />
                 <FindMe />
