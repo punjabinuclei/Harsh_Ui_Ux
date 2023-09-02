@@ -11,6 +11,7 @@ import WorkGallery from './WorkGallery/WorkGallery'
 import ContactForm from './ContactForm/ContactForm'
 import DayChallenge from './30DayChallenge/DayChallenge'
 import Footer from './Footer/Footer'
+import ProjectsResponsive from './Projects/ProjectsResponsive'
 
 
 
@@ -23,18 +24,17 @@ const HomePage = () => {
             </div>
             <CollaborationPartners />
             <CreativeUI />
-            <div className="hidden lg:block">
             <Projects />
-                <Services />
-                <Clients />
-                <FindMe />
-                <div className='bg_form_thirty'>
-                    <WorkGallery />
-                    <ContactForm />
-                    <DayChallenge />
-                </div>
-                <Footer />
+            <ProjectsResponsive />
+            <Services />
+            <Clients />
+            <FindMe />
+            <div className='bg_form_thirty'>
+                <WorkGallery />
+                <ContactForm />
+                <DayChallenge />
             </div>
+            <Footer />
         </>
     )
 }

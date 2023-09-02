@@ -12,7 +12,7 @@ interface Props {
 const ClientsContainer = ({ icon, name, designation }: Props) => {
     return (
         <div className='px-1'>
-            <div className='bg-[#251163] rounded-[0.875rem] w-[23.187rem] h-[6.25rem] p-[1rem]'>
+            <div className='bg-[#251163] rounded-[0.875rem] lg:w-[23.187rem] h-[6.25rem] p-[1rem] my-[1rem] lg:my-0'>
                 <div className='flex'>
                     <div className='pr-[1rem]'>
                         <Image src={icon} alt='icon' />

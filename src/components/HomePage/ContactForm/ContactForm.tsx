@@ -6,8 +6,8 @@ import sendMessage from "../../../assets/sendMessage.svg"
 
 const ContactForm = () => {
     return (
-        <div className='px-[7.31rem] my-[4rem]'>
-            <div className='contact_form_bg rounded-[1.5rem] pt-[2.6rem] px-[2rem]'>
+        <div className='lg:px-[7.31rem] my-[4rem] px-[1rem]'>
+            <div className='contact_form_bg rounded-[1.5rem] pt-[2.6rem] lg:px-[2rem] px-[1rem]'>
                 <div className=''>
                     <div className=''>
                         <Image className="mb-[1.5rem]" src={contact_form_icon} alt="contact_form_icon" />
@@ -15,7 +15,7 @@ const ContactForm = () => {
                             <h1>How can I help?</h1>
                             <h1>Lets work together.</h1>
                         </div>
-                        <div className='text-[1rem] font-[300] text-[#e3daff]'>
+                        <div className='text-[0.9rem] lg:text-[1rem] font-[300] text-[#e3daff]'>
                             <p>Working together takes some practice to get in</p>
                             <p>sync, but once we find our rhythm, the result </p>
                             <p>can be magical!</p>
@@ -27,11 +27,11 @@ const ContactForm = () => {
                 </div>
                 <div className='pt-[1.9rem]'>
                     <form>
-                        <div className='flex mb-[1rem]'>
+                        <div className='lg:flex mb-[1rem]'>
                             <input type="text" placeholder='Name'
-                                className='pl-[1.25rem] text-[1rem] text-[#6C757D] w-[35rem] h-[3.5rem] rounded-[0.5rem] bg-transparent mr-[1rem] border border-[#ffffff1a]' />
+                                className='pl-[1.25rem] text-[1rem] text-[#6C757D] w-full mb-[1rem] lg:mb-0 lg:w-[35rem] h-[3.5rem] rounded-[0.5rem] bg-transparent mr-[1rem] border border-[#ffffff1a]' />
                             <input type="text" placeholder='Email address'
-                                className='pl-[1.25rem] text-[1rem] text-[#6C757D] w-[35rem] h-[3.5rem] rounded-[0.5rem] bg-transparent border border-[#ffffff1a]' />
+                                className='pl-[1.25rem] text-[1rem] text-[#6C757D] w-full lg:w-[35rem] h-[3.5rem] rounded-[0.5rem] bg-transparent border border-[#ffffff1a]' />
                         </div>
                         <input type='text' placeholder='Message'
                             className='pl-[1.25rem] text-[1rem] text-[#6C757D] w-full pb-[5rem] pt-[1rem] rounded-[0.5rem] bg-transparent mb-[1rem] border border-[#ffffff1a]' />
@@ -43,12 +43,12 @@ const ContactForm = () => {
                             Relevant documents
                         </button>
 
-                        <div className='flex justify-between pb-[2rem] text-[1rem] text-[#6F6F71] mt-[2rem]'>
-                            <div className=' text-[0.75rem] ml-4 relative top-6'>
+                        <div className='lg:flex justify-between pb-[2rem] text-[1rem] text-[#6F6F71] mt-[2rem]'>
+                            <div className=' text-[0.75rem] ml-4 relative lg:top-6'>
                                 <p>Hate contact forms?</p>
-                                <button className='relative top-[0.13rem] left-[6rem]'>(click me)</button>
+                                <button className='relative lg:top-[0.13rem] left-[6rem]'>(click me)</button>
                             </div>
-                            <button className='rounded-[0.75rem] font-[500] button_style_form text-white w-[11.6rem] py-[0.95rem]  justify-center my-[auto]'>Send Message<Image className='ml-2 inline-block' src={sendMessage}
+                            <button className='mt-[1rem] lg:mt-0 rounded-[0.75rem] font-[500] button_style_form text-white w-full lg:w-[11.6rem] py-[0.95rem]  justify-center my-[auto]'>Send Message<Image className='ml-2 inline-block' src={sendMessage}
                                 alt='arrow' /></button>
                         </div>
                     </form>

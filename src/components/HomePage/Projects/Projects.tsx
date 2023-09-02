@@ -7,6 +7,7 @@ import TechTab from "./components/Technology"
 import E_commerceTab from "./components/E_commerce"
 import WebTab from "./components/Website"
 import AppTab from "./components/App"
+import { useRouter } from 'next/router';
 
 
 let tabs = [
@@ -20,6 +21,11 @@ let tabs = [
 ];
 
 function Projects() {
+    const router = useRouter();
+    const handleViewMoreClick = () => {
+        router.push('/Works');
+    };
+
     let [activeTab, setActiveTab] = useState(tabs[0].id);
 
     const renderContent = () => {
@@ -45,34 +51,41 @@ function Projects() {
 
 
     return (
-        <div className="flex justify-center">
-            <div className="px-[3rem] ">
-                <div className="flex space-x-4">
-                    {tabs.map((tab) => (
-                        <button
-                            key={tab.id}
-                            onClick={() => setActiveTab(tab.id)}
-                            className={`${activeTab === tab.id ? "" : "hover:text-white"
-                                } relative rounded-full px-[2rem] py-[1rem] text-[1rem] font-medium text-white outline-sky-400 transition focus-visible:outline-2 border-2 border-[#8d1cfe87]`}
-                            style={{
-                                WebkitTapHighlightColor: "transparent",
-                            }}
-                        >
-                            {activeTab === tab.id && (
-                                <motion.span
-                                    layoutId="bubble"
-                                    className="absolute inset-0 z-10 tab_bg mix-blend-difference border-none"
-                                    style={{ borderRadius: 9999 }}
-                                    transition={{ type: "spring", bounce: 0.2, duration: 0.6 }}
-                                />
-                            )}
-                            {tab.label}
-                        </button>
-                    ))}
+        <div className="hidden lg:block">
+            <div className="flex justify-center">
+                <div className="px-[3rem]">
+                    <div className="flex space-x-4">
+                        {tabs.map((tab) => (
+                            <button
+                                key={tab.id}
+                                onClick={() => setActiveTab(tab.id)}
+                                className={`${activeTab === tab.id ? "" : "hover:text-white"
+                                    } relative rounded-full px-[2rem] py-[1rem] text-[1rem] font-medium text-white outline-sky-400 transition focus-visible:outline-2 border-2 border-[#8d1cfe87]`}
+                                style={{
+                                    WebkitTapHighlightColor: "transparent",
+                                }}
+                            >
+                                {activeTab === tab.id && (
+                                    <motion.span
+                                        layoutId="bubble"
+                                        className="absolute inset-0 z-10 tab_bg mix-blend-difference border-none"
+                                        style={{ borderRadius: 9999 }}
+                                        transition={{ type: "spring", bounce: 0.2, duration: 0.6 }}
+                                    />
+                                )}
+                                {tab.label}
+                            </button>
+                        ))}
 
-                </div>
-                <div className="mt-4">
-                    {renderContent()}
+                    </div>
+                    <div className="mt-4">
+                        {renderContent()}
+                        <div className="text-center mt-[2rem]">
+                            <button className="rounded-[4.13rem] px-6 py-3 nav_btn_bg" onClick={handleViewMoreClick}>
+                                View More
+                            </button>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

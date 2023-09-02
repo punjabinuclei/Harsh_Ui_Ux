@@ -10,16 +10,16 @@ import client6demo from "../../../assets/client6demo.png"
 
 const Clients = () => {
     return (
-        <div className='px-[6rem] py-[2rem]'>
+        <div className='lg:px-[6rem] px-[1rem] py-[2rem]'>
             <div>
-                <h1 className='text-[3rem] font-bold pb-[2.21rem]'>My Super Dope Clients</h1>
+                <h1 className='text-[3rem] text-center font-bold pb-[2.21rem]'>Super Clients</h1>
             </div>
-            <div className='flex justify-center'>
+            <div className='lg:flex justify-center'>
                 <ClientsContainer icon={client1demo} name="Ehab Aldissi" designation="Founder at Traed.ai" />
                 <ClientsContainer icon={client2demo} name="Trent Keneddy" designation="Founder Estella" />
                 <ClientsContainer icon={client3demo} name="Vrushabh Vakharia" designation="Founder of Vrusco" />
             </div>
-            <div className='flex justify-center py-[0.6rem]'>
+            <div className='lg:flex justify-center lg:py-[0.6rem]'>
                 <ClientsContainer icon={client4demo} name="Ivan Gonzalez" designation="CEO of MAUI" />
                 <ClientsContainer icon={client5demo} name="Saurbh Panjwani" designation="Founder of Mulya" />
                 <ClientsContainer icon={client6demo} name="Simprabh Chawla" designation="Founder of Lohawalla" />

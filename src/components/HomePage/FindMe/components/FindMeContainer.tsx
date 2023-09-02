@@ -10,8 +10,8 @@ interface Props {
 
 const FindMeContainer = ({ bg, icon, username, org }: Props) => {
     return (
-        <div className='px-2'>
-            <div className='w-[15.91575rem] h-[23.78rem] rounded-[1.71rem] bg-[#89c6ff] bg-opacity-5 '>
+        <div className='px-2 my-[1rem]'>
+            <div className='lg:w-[15.91575rem] h-[23.78rem] rounded-[1.71rem] bg-[#89c6ff] bg-opacity-5 shadow-[rgba(0,_0,_0,_0.4)_0px_30px_90px] card_border'>
                 <Image className='rounded-[1.71rem]' src={bg} alt='img' />
                 <div className='relative bottom-8'>
                     <Image className='rounded-full mx-auto ' src={icon} alt='icon' />

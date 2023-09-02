@@ -1,5 +1,6 @@
 import React from 'react'
-import Image, { StaticImageData } from 'next/image'
+import Image, { StaticImageData } from 'next/image';
+import Link from 'next/link';
 
 interface Props {
     image: StaticImageData,
@@ -20,7 +21,9 @@ const Card = ({ image, title, title2, category, project_link }: Props) => {
             </div>
             <div className='flex justify-between border-t border-[#edecec]  text-[0.75rem] text-[#1c51fe] '>
                 <p className='mt-[0.48rem] px-4 bg-[#E3DAFF] py-[0.4rem] rounded-[4.13rem]'>{category}</p>
-                <p className='font-bold mt-[0.88rem]'>View Project</p>
+                <Link className=' pt-[0.88rem]' href={project_link}> {/* Use Link component with the passed project_link */}
+                    <button className="font-bold">View Project</button>
+                </Link>
             </div>
         </div>
     )

@@ -14,15 +14,17 @@ import FindMeContainer from './components/FindMeContainer'
 
 const FindMe = () => {
     return (
-        <div className='px-[7rem] py-[7rem] find_me_bg'>
+        <div className='lg:px-[7rem] py-[7rem] find_me_bg'>
             <div>
-                <h1 className='text-[3rem] font-bold pb-[2rem]'>Find UX.Harsh everywhere</h1>
+                <h1 className='text-[3rem] text-center font-bold pb-[2rem]'>Find UX.Harsh everywhere</h1>
             </div>
             <div className='flex justify-center'>
-                <FindMeContainer bg={bg_find_me_1} icon={icon_find_me_1} username='Burnerbuzz' org='Instagram' />
-                <FindMeContainer bg={bg_find_me_2} icon={icon_find_me_2} username='UX.Harsh' org='Behance' />
-                <FindMeContainer bg={bg_find_me_3} icon={icon_find_me_3} username='Harsh Vesuwala' org='Fiverr' />
-                <FindMeContainer bg={bg_find_me_4} icon={icon_find_me_4} username='Harsh Vesuwala' org='Linkedin' />
+                <div className='lg:flex justify-center'>
+                    <FindMeContainer bg={bg_find_me_1} icon={icon_find_me_1} username='Burnerbuzz' org='Instagram' />
+                    <FindMeContainer bg={bg_find_me_2} icon={icon_find_me_2} username='UX.Harsh' org='Behance' />
+                    <FindMeContainer bg={bg_find_me_3} icon={icon_find_me_3} username='Harsh Vesuwala' org='Fiverr' />
+                    <FindMeContainer bg={bg_find_me_4} icon={icon_find_me_4} username='Harsh Vesuwala' org='Linkedin' />
+                </div>
             </div>
         </div>
     )
