@@ -9,7 +9,7 @@ import LeverageDesign from '../LeverageDesign/LeverageDesign'
 const AboutPage = () => {
     return (
         <>
-            <div className='nav_bg'>
+            <div className=''>
                 <Navbar />
                 <HeroSection />
             </div>

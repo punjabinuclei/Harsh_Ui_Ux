@@ -65,7 +65,7 @@ const Footer = () => {
                     <p className='text-[1rem] text-[#98a2b3] pt-[2rem]  text-center'>© 2023 UX.Harsh. All rights reserved.</p>
                 </div>
             </div>
-            <div className='lg:hidden px-[1rem] py-[5rem]'>
+            <div className='lg:hidden px-[1rem] pb-[5rem]'>
                 <div className=''>
                     <div className='flex justify-center'>
 

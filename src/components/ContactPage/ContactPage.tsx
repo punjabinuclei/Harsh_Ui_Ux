@@ -7,13 +7,9 @@ import HeroSection from './HeroSection/HeroSection'
 const ContactPage = () => {
     return (
         <>
-            <div className='nav_bg '>
-                <Navbar />
-                <HeroSection />
-            </div>
-            <div className='relative bottom-[10rem]'>
-                <ContactForm />
-            </div>
+            <Navbar />
+            <HeroSection />
+            <ContactForm />
             <Footer />
         </>
     )

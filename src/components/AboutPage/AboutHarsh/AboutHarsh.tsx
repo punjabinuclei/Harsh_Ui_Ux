@@ -7,12 +7,12 @@ const AboutHarsh = () => {
 
 
     return (
-        <div className='pt-[13rem] px-[7rem]'>
+        <div className='lg:pt-[13rem] lg:px-[7rem] px-[2rem] py-[4rem]'>
 
-            <div className='grid grid-cols-4 gap-4'>
+            <div className='lg:grid grid-cols-4 gap-4'>
                 <div className='col-span-1'></div>
                 <div className='col-span-2'>
-                    <h1 className='about_text_animation text-[3.2rem] font-bold  leading-[3.15rem] '>Hi again, I'm Harsh</h1>
+                    <h1 className='about_text_animation text-[2rem] lg:text-[3.2rem] font-bold  leading-[3.15rem]'>Hi again, I'm Harsh</h1>
                 </div>
                 <div></div>
 

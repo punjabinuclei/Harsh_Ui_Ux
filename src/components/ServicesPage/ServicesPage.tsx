@@ -8,7 +8,7 @@ import Deliverables from './Deliverables/Deliverables'
 const Services = () => {
   return (
     <div>
-      <div className='nav_bg'>
+      <div className='lg:nav_bg'>
         <Navbar />
         <HeroSection />
       </div>
