@@ -4,9 +4,9 @@ import { personas } from './UserData'; // Import the personas data
 
 const PersonaDetails = () => {
     return (
-        <div className='pt-[6rem] px-[7rem]'>
+        <div className='pt-[6rem] lg:px-[7rem] px-[1.5rem]'>
             <h2 className='text-[#9747ff] font-bold leading-[1.25rem]'>_____ PERSONA DETAILS</h2>
-            <h1 className='text-[2.375rem] leading-[2.75rem] font-bold'>Synthesizing user research.</h1>
+            <h1 className='text-[2.375rem] leading-[2.75rem] font-bold pt-[1rem] lg:pt-0'>Synthesizing user research.</h1>
             {personas.map((persona, index) => (
                 <div key={index} className='pt-[4rem]'>
                     <InfoContainer

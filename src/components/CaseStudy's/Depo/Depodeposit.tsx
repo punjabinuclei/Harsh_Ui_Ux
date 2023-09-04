@@ -12,12 +12,13 @@ import WireFrame from './WireFrame/WireFrame'
 import BrandGuidelines from './BrandGuidelines/BrandGuidelines'
 import KeyFindings from './KeyFindings/KeyFindings'
 import Projects from '@/components/HomePage/Projects/Projects'
+import ResponsiveProjects from '@/components/HomePage/Projects/ProjectsResponsive';
 import ContactForm from '@/components/HomePage/ContactForm/ContactForm'
 import Footer from '@/components/HomePage/Footer/Footer'
 
 const Depodeposit = () => {
     return (
-        <div>
+        <>
             <Navbar />
             <HeroSection />
             <StudyIntro />
@@ -31,9 +32,10 @@ const Depodeposit = () => {
             <BrandGuidelines />
             <KeyFindings />
             <Projects />
+            <ResponsiveProjects />
             <ContactForm />
             <Footer />
-        </div>
+        </>
     )
 }
 
