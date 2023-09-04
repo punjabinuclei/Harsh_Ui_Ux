@@ -2,6 +2,7 @@ import ContactForm from '@/components/HomePage/ContactForm/ContactForm'
 import Footer from '@/components/HomePage/Footer/Footer'
 import Navbar from '@/components/HomePage/Navbar/Navbar'
 import Projects from '@/components/HomePage/Projects/Projects'
+import ProjectsResponsive from '@/components/HomePage/Projects/ProjectsResponsive'
 import React from 'react'
 import HeroSection from './HeroSection/HeroSection'
 import StudyIntro from './StudyIntro/StudyIntro'
@@ -27,8 +28,9 @@ const MulyaPage = () => {
             <Analysis />
             <PersonaDetails />
             <BrandGuidelines />
-            <KeyFindings/>
+            <KeyFindings />
             <Projects />
+            <ProjectsResponsive />
             <ContactForm />
             <Footer />
         </div>

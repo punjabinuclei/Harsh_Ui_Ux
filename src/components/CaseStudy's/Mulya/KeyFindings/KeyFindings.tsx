@@ -2,7 +2,7 @@ import React from 'react'
 
 const KeyFindings = () => {
     return (
-        <div className=' my-[6rem]'>
+        <div className='hidden my-[6rem]'>
             <div className=''>
                 <h2 className='text-center text-[#9747ff] font-bold leading-[1.25rem]'>_____ KEY FINDINGS</h2>
                 <h1 className='text-center text-[2.375rem] leading-[2.75rem] font-bold'>Measuring success.</h1>

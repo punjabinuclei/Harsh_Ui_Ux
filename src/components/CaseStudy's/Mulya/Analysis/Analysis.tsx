@@ -8,12 +8,12 @@ import { paymentGateways } from './AnalysisData';
 const Analysis = () => {
     return (
         <div>
-            <div className='px-[7rem] pt-[6rem]'>
+            <div className='lg:px-[7rem] pt-[6rem] px-[1.5rem]'>
                 <h2 className='text-[#9747ff] font-bold leading-[1.25rem]'>_____ COMPETITIVE ANALYSIS</h2>
                 <h1 className='text-[2.375rem] leading-[2.75rem] font-bold'>Understanding the competition.</h1>
 
                 <div className='pt-[5rem]'>
-                    <div className='flex justify-between'>
+                    <div className='lg:flex justify-between'>
                         {/* NFT Platforms */}
                         <AnalysisContainer
                             logo={paymentGateways[0].logo}
@@ -39,13 +39,14 @@ const Analysis = () => {
                         items1={paymentGateways[2].cons}
                         items2={paymentGateways[2].pros}
                     />
-                    <div className='h-screen mt-[10rem] mb-[6rem]'>
+                    <div className='lg:h-screen lg:mt-[10rem] lg:mb-[6rem]'>
                         <Image src={analysis} alt="AI_bg" />
                     </div>
                 </div>
             </div>
-            <Image src={interaction_chapter_bg} alt="interaction_chapter_bg" />
-
+            <div className='w-full flex justify-center'>
+                <Image src={interaction_chapter_bg} alt="interaction_chapter_bg" />
+            </div>
         </div>
     )
 }
