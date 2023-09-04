@@ -11,12 +11,12 @@ import { bikePlatforms } from './AnalysisData';
 const Analysis = () => {
     return (
         <div>
-            <div className='px-[7rem] pt-[6rem]'>
+            <div className='lg:px-[7rem] pt-[6rem] px-[1.5rem]'>
                 <h2 className='text-[#9747ff] font-bold leading-[1.25rem]'>_____ COMPETITIVE ANALYSIS</h2>
                 <h1 className='text-[2.375rem] leading-[2.75rem] font-bold'>Understanding the competition.</h1>
 
                 <div className='pt-[5rem]'>
-                    <div className='flex justify-between pb-[4rem]'>
+                    <div className='lg:flex justify-between pb-[4rem]'>
                         {/* NFT Platforms */}
                         <AnalysisContainer
                             logo={bikePlatforms[0].logo}
@@ -43,7 +43,7 @@ const Analysis = () => {
                         items2={bikePlatforms[2].pros}
                     />
                 </div>
-                <div className='h-screen mt-[10rem] mb-[6rem]'>
+                <div className='lg:h-screen lg:mt-[10rem] lg:mb-[6rem] mt-[3rem]'>
                     <Image src={analysis} alt="AI_bg" />
                 </div>
             </div>

@@ -12,8 +12,9 @@ import PersonaDetails from './PersonaDetails/PersonaDetails'
 import BrandGuidelines from './BrandGuidelines/BrandGuidelines'
 import Architecture from './Architecture/Architecture'
 import Execution from './Execution/Execution'
-import KeyFindings from './KeyFindings/KeyFindings'
+// import KeyFindings from './KeyFindings/KeyFindings'
 import Projects from '@/components/HomePage/Projects/Projects'
+import ProjectsResponsive from '@/components/HomePage/Projects/ProjectsResponsive'
 import ContactForm from '@/components/HomePage/ContactForm/ContactForm'
 import Footer from '@/components/HomePage/Footer/Footer'
 
@@ -33,8 +34,8 @@ const UVConnectPage = () => {
             <BrandGuidelines />
             <Architecture />
             <Execution />
-            <KeyFindings />
-            <Projects/>
+            <Projects />
+            <ProjectsResponsive />
             <ContactForm />
             <Footer />
 
