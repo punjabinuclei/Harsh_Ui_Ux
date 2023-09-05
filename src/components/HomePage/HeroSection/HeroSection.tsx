@@ -4,7 +4,7 @@ import HeroSectionStar from "../../../assets/herosection_star.svg"
 import hero_image from "../../../assets/hero_img.png";
 import hello from "../../../assets/hello_im_Harsh.png";
 import hero_button from "../../../assets/hero_button.png";
-import hero_img2 from "../../../assets/Responsive/hero_img.png"
+import hero_img2 from "../../../assets/Responsive/hero_img2.png"
 import Link from 'next/link';
 
 const HeroSection = () => {

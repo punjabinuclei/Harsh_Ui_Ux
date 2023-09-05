@@ -5,7 +5,7 @@ import thirty_star from "../../../assets/start_thirty.png"
 
 const DayChallenge = () => {
     return (
-        <div className='lg:pb-[10rem] lg:mt-[14rem] '>
+        <div className='lg:pb-[10rem] lg:mt-[14rem] mb-[6rem] lg:mb-0'>
 
             <div className=' lg:mx-[7rem] bg-[#0D042A] rounded-[0.125rem]  lg:h-[25rem] box_shadow_thirty py-[4rem] lg:py-0'>
                 <div className=' flex justify-center pt-[3.16rem]'>

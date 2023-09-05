@@ -18,7 +18,7 @@ import ProjectsResponsive from './Projects/ProjectsResponsive'
 const HomePage = () => {
     return (
         <>
-            <div className='nav_hero_bg'>
+            <div className='lg:nav_hero_bg'>
                 <Navbar />
                 <HeroSection />
             </div>
