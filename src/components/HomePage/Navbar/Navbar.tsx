@@ -8,7 +8,7 @@ import nav_logo2 from "../../../assets/Responsive/nav_logo.svg"
 
 const Navbar = () => {
     return (
-        <div>
+        <div className=''>
             <div className='hidden lg:block pt-[1.53rem] px-[8rem] text-white'>
                 <div className='flex justify-between'>
                     <div>

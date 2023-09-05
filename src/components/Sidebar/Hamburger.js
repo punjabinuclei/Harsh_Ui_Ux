@@ -6,11 +6,13 @@ import download_icon from "../../assets/Responsive/download_icon.svg"
 
 
 const HamburgerMenu = () => (
-    <div className='relative py-2 flex justify-between items-center w-full px-[1.5rem]'>
-        <Image src={logo} alt="logo" />
-        <Menu customBurgerIcon={<HamburgerIcon />} width={'auto'} className='left-0 top-0' >
-            <Links />
-        </Menu>
+    <div className='fixed z-10 w-full'>
+        <div className='relative py-[1rem] flex justify-between  w-full px-[1.5rem] '>
+            <Image src={logo} alt="logo" />
+            <Menu customBurgerIcon={<HamburgerIcon />} width={'auto'} className='left-0 top-0' >
+                <Links />
+            </Menu>
+        </div>
     </div>
 )
 
