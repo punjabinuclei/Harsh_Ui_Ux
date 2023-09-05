@@ -24,7 +24,7 @@ const Navbar = () => {
                     </div>
                 </div>
             </div>
-            <div className='lg:hidden px-[2rem] py-[1rem] flex justify-between'>
+            <div className='hidden px-[2rem] py-[1rem] flex justify-between'>
                 <Image src={nav_logo2} alt="Logo" />
                 <h1>Button</h1>
             </div>

@@ -1,0 +1,35 @@
+
+  
+  
+  .bm-cross {
+    background: #ffffff;
+  }
+  
+  .bm-menu-wrap {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+  }
+  
+  .bm-menu {
+    background: #110929;
+    width: 100%;
+    padding: 0em 8em 0em 0em;
+    
+  }
+  
+  .bm-morph-shape {
+    fill: #ffffff;
+   
+  }
+  
+  .bm-item-list {
+    padding: 0.8em;
+    width: 100%;
+  }
+  
+  .bm-item {
+    display: inline-block;
+    width: 100%;
+  }
+  
