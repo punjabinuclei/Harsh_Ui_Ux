@@ -9,7 +9,7 @@ import Link from 'next/link';
 
 const HeroSection = () => {
     return (
-        <div className='px-[2rem] mt-[5rem] text-white lg:pl-[7rem] lg:h-screen '>
+        <div className='px-[2rem] py-[7rem] text-white lg:pl-[7rem] lg:h-screen '>
             <div className='flex justify-between'>
                 <div>
                     <div>

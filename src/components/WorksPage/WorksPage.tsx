@@ -8,7 +8,7 @@ import Footer from '../HomePage/Footer/Footer'
 const WorksPage = () => {
     return (
         <>
-            <div className='nav_bg'>
+            <div className=''>
                 <Navbar />
                 <HeroSection />
             </div>

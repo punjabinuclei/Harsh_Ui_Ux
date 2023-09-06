@@ -4,7 +4,7 @@ import Image from 'next/image';
 
 const HeroSection = () => {
     return (
-        <div className=''>
+        <div className='py-[7rem]'>
             <div className='flex justify-center'>
                 <Image src={homepage_img} alt="homepage" />
             </div>
