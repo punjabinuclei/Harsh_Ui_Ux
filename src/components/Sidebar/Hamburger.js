@@ -6,7 +6,7 @@ import download_icon from "../../assets/Responsive/download_icon.svg"
 
 
 const HamburgerMenu = () => (
-    <div className='fixed z-10 w-full'>
+    <div className='fixed z-10 w-full bg-[#110929]'>
         <div className='relative py-[1rem] flex justify-between  w-full px-[1.5rem] '>
             <Image src={logo} alt="logo" />
             <Menu customBurgerIcon={<HamburgerIcon />} width={'auto'} className='left-0 top-0' >
