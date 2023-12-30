@@ -9,7 +9,7 @@ import tedx_logo from "../../../assets/tedx_logo.svg"
 
 const CollaborationParnters = () => {
     return (
-        <div className='lg:w-full'>
+        <div className='lg:w-full lg:my-[8rem] relative'>
 
             <div className='hidden lg:block px-[7rem] py-10  collaboration_bg  w-full relative bottom-20'>
                 <div className='flex justify-between'>

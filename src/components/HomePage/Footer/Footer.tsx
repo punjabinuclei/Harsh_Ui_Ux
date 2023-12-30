@@ -88,7 +88,7 @@ const Footer = () => {
                             <div className='text-[0.93rem] text-[#999]'>
                                 <Link href="/"><p className='py-1'>Home</p></Link>
                                 <Link href="/About"><p className='py-1'>About me</p></Link>
-                                <Link href="/Works"><p className='py-1'>Works</p></Link>
+                                {/* <Link href="/Works"><p className='py-1'>Works</p></Link> */}
                                 <Link href="/Contact"><p className='py-1'>Contact</p></Link>
                             </div>
                         </div>

@@ -1,5 +1,6 @@
 import '@/styles/globals.css'
-import "../components/Sidebar/Sidebar.css"
+import "../components/Sidebar/Sidebar.css";
+import "../components/WorksPage/Carousal/Carousal.css"
 import type { AppProps } from 'next/app'
 import { Inter } from 'next/font/google'
 

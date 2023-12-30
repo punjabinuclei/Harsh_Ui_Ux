@@ -9,12 +9,12 @@ import Link from 'next/link';
 
 const HeroSection = () => {
     return (
-        <div className='px-[2rem] py-[7rem] text-white lg:pl-[7rem] lg:h-screen '>
+        <div className='px-[2rem] py-[10rem] text-white lg:pl-[7rem] lg:h-screen '>
             <div className='flex justify-between'>
                 <div>
                     <div>
                         <p className='text-[1rem] tracking-[0.11rem]'>A designer who</p>
-                        <h1 className='text-[2.5rem]  leading-[2.5rem] lg:leading-[6rem] w-[20rem] lg:text-[5.875rem] font-[800] lg:tracking-[-0.125rem] lg:w-[48rem]'>
+                        <h1 className='text-[2.5rem]  leading-[2.5rem] lg:leading-[6rem] w-[20rem] lg:text-[5.875rem] font-[800] lg:tracking-[-0.125rem] lg:w-[40rem]'>
                             Judges a book
                             by its <span className='text-[#1C51FE]'>Cover</span>..</h1>
                         <div className='justify-between lg:flex lg:mt-[5rem]'>
@@ -29,7 +29,7 @@ const HeroSection = () => {
                                     <button className='rounded-[1rem] w-[20rem] py-[0.7rem] px-[2rem] bg-[#1C51FE]'>Discover Me</button>
                                 </Link>
                             </div>
-                            <div className='relative hidden lg:block lg:bottom-16'>
+                            <div className='relative hidden lg:block lg:bottom-16 '>
                                 <Image src={HeroSectionStar} alt="HeroSectionStart" />
                             </div>
                         </div>
@@ -46,7 +46,7 @@ const HeroSection = () => {
                         </div>
                     </div>
                 </div>
-                <div className='hidden lg:block w-[28.9rem] h-[27.9rem] mr-[30px]'>
+                <div className='hidden lg:block w-[28.9rem] h-[27.9rem] mr-[30px] lg:pl-[4rem]'>
                     <Image src={hero_image} alt="hero_image" />
                 </div>
             </div>

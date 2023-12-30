@@ -16,16 +16,16 @@ const All = () => {
             <div>
                 <div className='flex space-x-4 pt-[2rem]'>
 
-                    <Card image={Depodeposit} title='Depodeposit' title2='(study)' category='UX-UI- Statergy' project_link='' />
+                    <Card image={Depodeposit} title='Depodeposit' title2='(study)' category='UX-UI- Statergy' project_link='/Depo' />
                     <Card image={Lohawalla} title='Lohawalla' title2='(study)' category='UX-UI- Statergy' project_link='' />
-                    <Card image={Mulya} title='Mulya' title2='(study)' category='UX-UI- Statergy' project_link='' />
+                    <Card image={Mulya} title='Mulya' title2='(study)' category='UX-UI- Statergy' project_link='/Mulya' />
                     <Card image={Traed} title='Traed.Ai' title2='' category='UX-UI- Statergy' project_link='' />
                 </div>
                 <div className='flex space-x-4 pt-[1rem]'>
-                    <Card image={Estella} title='Estella' title2='' category='UX-UI' project_link='' />
-                    <Card image={UV_Connect} title='UV Connect' title2='(study)' category='UX-UI' project_link='' />
-                    <Card image={Vrusco} title='Vrusco' title2='' category='UX-UI-Statergy' project_link='' />
-                    <Card image={Tedx} title='TEDxIITRAM' title2='' category='UX-UI-Statergy' project_link='' />
+                    <Card image={Estella} title='Estella' title2='' category='UX-UI' project_link='/Estella' />
+                    <Card image={UV_Connect} title='UV Connect' title2='(study)' category='UX-UI' project_link='/UVConnect' />
+                    <Card image={Vrusco} title='Vrusco' title2='' category='UX-UI-Statergy' project_link='/Vrusco' />
+                    <Card image={Tedx} title='TEDxIITRAM' title2='' category='UX-UI-Statergy' project_link='/Tedx' />
                 </div>
             </div>
         </div>

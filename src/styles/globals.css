@@ -12,12 +12,6 @@ body {
   color: white;
 }
 
-.nav_hero_bg {
-  background: url("../assets/nav_hero_bg.png");
-  mask-repeat: no-repeat;
-  background-position: left;
-  background-size: cover;
-}
 
 .nav_btn_bg {
   background: linear-gradient(90deg, #8d1cfe 0%, #0038ed 100%);
@@ -86,11 +80,6 @@ body {
   background: linear-gradient(162deg, #8d1cfe 0%, #0038ed 100%);
 }
 
-/* Works Page---------------------------------------------- */
-.nav_bg {
-  background: url("../assets/Works/nav_bg.png");
-  background-repeat: no-repeat;
-}
 
 .about_text_animation {
   background: linear-gradient(174deg, #adf1e0 10%, #8075ff 18%, #ff7171 98%);
@@ -137,4 +126,26 @@ body {
 
 .card_border{
   border: 1px solid #8d1cfe87;
+}
+
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background: #110929;
+  border:1px solid rgba(141, 28, 254, 0.25);
+  min-width: 200px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 16px 16px;
+  z-index: 1;
+  border-radius: 14px;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
 }
